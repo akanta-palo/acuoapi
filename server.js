@@ -56,7 +56,7 @@ let dashboard = {
                                     'time': '2016-10-23T18:25:43.511Z',
                                     'legalEntity': 'Acuo SG',
                                     'cpty': 'ABC bank',
-                                    'region': 'Singapore',
+                                    'venue': 'Singapore',
                                     'ccy': 'SGD',
                                     'initialMargin': 100000,
                                     'variableMargin': 500000
@@ -65,7 +65,7 @@ let dashboard = {
                                     'time': '2016-10-23T18:30:43.511Z',
                                     'legalEntity': 'Acuo SG',
                                     'cpty': 'ABC bank',
-                                    'region': 'Singapore',
+                                    'venue': 'Singapore',
                                     'ccy': 'SGD',
                                     'initialMargin': 100000,
                                     'variableMargin': 500000
@@ -74,7 +74,7 @@ let dashboard = {
                                     'time': '2016-10-23T18:40:43.511Z',
                                     'legalEntity': 'Acuo SG',
                                     'cpty': 'ABC bank',
-                                    'region': 'Singapore',
+                                    'venue': 'Singapore',
                                     'ccy': 'SGD',
                                     'initialMargin': 100000,
                                     'variableMargin': 500000
