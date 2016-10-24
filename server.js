@@ -7,6 +7,7 @@ app.use(function (req, res, next) {
   res.header('Access-Control-Allow-Methods', 'POST, GET')
   next()
 })
+const port = process.env.PORT || 8080;
 
 let dashboard = {
     'menu':{ //for the red notification badges on the menu bar
@@ -124,6 +125,6 @@ app.get('/json', function (req, res) {
   res.send(dashboard);
 });
 
-app.listen(3000, function () {
+app.listen(port, function () {
   console.log('Example app listening on port 3000!');
 });
