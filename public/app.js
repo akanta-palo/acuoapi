@@ -38,13 +38,13 @@ let dashboard = {
                             'timeRangeStart': '2016-10-23T18:00:00.000Z',
                             'timeRangeEnd': '2016-10-23T18:59:59.999Z',
                             'noOfActions': 3,
-                            'amount': 1500000,
+                            'amount': 1200000,
                             'CPTYMargin': 1500000,
                             'EXPMargin': 10000000,
                             'actionsList': [
                                 {
                                     'time': '2016-10-23T18:25:43.511Z',
-                                    'legalEntity': 'Acuo SG',
+                                    'legalEntity': 'Acuo ID',
                                     'cpty': 'ABC bank',
                                     'venue': 'Singapore',
                                     'ccy': 'SGD',
@@ -53,7 +53,7 @@ let dashboard = {
                                 },
                                 {
                                     'time': '2016-10-23T18:30:43.511Z',
-                                    'legalEntity': 'Acuo SG',
+                                    'legalEntity': 'Acuo ID',
                                     'cpty': 'ABC bank',
                                     'venue': 'Singapore',
                                     'ccy': 'SGD',
@@ -99,7 +99,7 @@ let dashboard = {
                             'timeRangeStart': '2016-10-23T18:00:00.000Z',
                             'timeRangeEnd': '2016-10-23T18:59:59.999Z',
                             'noOfActions': 3,
-                            'amount': 1500000,
+                            'amount': 15000000,
                             'CPTYMargin': 1500000,
                             'EXPMargin': 10000000,
                             'actionsList': [
@@ -136,7 +136,7 @@ let dashboard = {
                             'timeRangeStart': '2016-10-23T19:00:00.000Z',
                             'timeRangeEnd': '2016-10-23T19:59:59.999Z',
                             'noOfActions': 1,
-                            'amount': 1550000,
+                            'amount': 15560000,
                             'CPTYMargin': 1500000,
                             'EXPMargin': 10000000,
                             'actionsList': [
@@ -197,7 +197,7 @@ let dashboard = {
                             'timeRangeStart': '2016-10-23T19:00:00.000Z',
                             'timeRangeEnd': '2016-10-23T19:59:59.999Z',
                             'noOfActions': 1,
-                            'amount': 1550000,
+                            'amount': 1550100,
                             'CPTYMargin': 1500000,
                             'EXPMargin': 10000000,
                             'actionsList': [
@@ -221,7 +221,7 @@ let dashboard = {
                             'timeRangeStart': '2016-10-23T18:00:00.000Z',
                             'timeRangeEnd': '2016-10-23T18:59:59.999Z',
                             'noOfActions': 3,
-                            'amount': 1500000,
+                            'amount': 1500200,
                             'CPTYMargin': 1500000,
                             'EXPMargin': 10000000,
                             'actionsList': [
@@ -258,7 +258,7 @@ let dashboard = {
                             'timeRangeStart': '2016-10-23T19:00:00.000Z',
                             'timeRangeEnd': '2016-10-23T19:59:59.999Z',
                             'noOfActions': 1,
-                            'amount': 1550000,
+                            'amount': 155000,
                             'CPTYMargin': 1500000,
                             'EXPMargin': 10000000,
                             'actionsList': [
@@ -282,7 +282,7 @@ let dashboard = {
                             'timeRangeStart': '2016-10-23T18:00:00.000Z',
                             'timeRangeEnd': '2016-10-23T18:59:59.999Z',
                             'noOfActions': 3,
-                            'amount': 1500000,
+                            'amount': 1500100,
                             'CPTYMargin': 1500000,
                             'EXPMargin': 10000000,
                             'actionsList': [
@@ -319,7 +319,7 @@ let dashboard = {
                             'timeRangeStart': '2016-10-23T19:00:00.000Z',
                             'timeRangeEnd': '2016-10-23T19:59:59.999Z',
                             'noOfActions': 1,
-                            'amount': 1550000,
+                            'amount': 1551000,
                             'CPTYMargin': 1500000,
                             'EXPMargin': 10000000,
                             'actionsList': [
