@@ -10,7 +10,6 @@ app.use(function (req, res, next) {
 const port = process.env.PORT || 8080;
 
 let dashboard = {
-  "data": {
     "menu":{
       "alerts": [
         {
@@ -2195,13 +2194,8 @@ let dashboard = {
           }
         ]
       }
-    ],
-    "someOtherRoute": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "someMoreRoutes": { "name": "Rui" }
+    ]
   }
-}
 
 app.get('/', function (req, res) {
   res.send('Welcome to ACUO');
