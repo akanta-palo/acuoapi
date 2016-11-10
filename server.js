@@ -2301,7 +2301,8 @@ let dashboard = {
     "variableMargin": 500000,
     "ClientAssets":[
         {
-          "group":[
+          "groupName": "group 1",
+          "data":[
             {
               "firstLevel": "Net Total IM",
               "secondLevel": [
@@ -2335,7 +2336,8 @@ let dashboard = {
           ]
         },
         {
-          "group":[
+          "groupName": "group 2",
+          "data":[
             {
               "firstLevel": "Product Cash Flows",
               "secondLevel": [
@@ -2371,7 +2373,8 @@ let dashboard = {
       ],
     "counterpartyAssets":[
         {
-          "group":[
+          "groupName": "group 1",
+          "data":[
             {
               "firstLevel": "Net Total IM",
               "secondLevel": [
@@ -2405,7 +2408,8 @@ let dashboard = {
           ]
         },
         {
-          "group":[
+          "groupName": "group 2",
+          "data":[
             {
               "firstLevel": "Product Cash Flows",
               "secondLevel": [
