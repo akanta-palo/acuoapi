@@ -2270,36 +2270,36 @@ let dashboard = {
             "timeRangeStart": "2016-10-23T20:00:00.000Z",
             "timeRangeEnd": "2016-10-23T20:59:59.999Z",
             "actionsList": [
-                {
-                  "time": "2016-10-23T19:25:43.511Z",
-                  "legalEntity": "Acuo SG",
-                  "cptyEntity":"B3",
-                  "cptyOrg": "COUNTERPARTY B",
-                  "ccy": "SGD",
-                  "direction": "OUT",
-                  "initialMargin": 100000000000,
-                  "variableMargin": 500000
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "recon": [
-    {
-      "time": "2016-10-23T10:25:43.511Z",
-      "legalEntity": "Acuo SG",
-      "cptyEntity": "A1",
-      "cptyOrg": "COUNTERPARTY A",
-      "ccy": "SGD",
-      "direction": "IN",
-      "initialMargin": 10000,
-      "variableMargin": 500000,
-      "ClientAssets":[
+              {
+                "time": "2016-10-23T19:25:43.511Z",
+                "legalEntity": "Acuo SG",
+                "cptyEntity":"B3",
+                "cptyOrg": "COUNTERPARTY B",
+                "ccy": "SGD",
+                "direction": "OUT",
+                "initialMargin": 100000000000,
+                "variableMargin": 500000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+],
+"recon": [
+  {
+    "time": "2016-10-23T10:25:43.511Z",
+    "legalEntity": "Acuo SG",
+    "cptyEntity": "A1",
+    "cptyOrg": "COUNTERPARTY A",
+    "ccy": "SGD",
+    "direction": "IN",
+    "initialMargin": 10000,
+    "variableMargin": 500000,
+    "ClientAssets":[
         {
-          "group1": [
+          "group1":[
             {
               "firstLevel": "Net Total IM",
               "secondLevel": [
@@ -2330,125 +2330,125 @@ let dashboard = {
                 }
               ]
             }
-          ],
-          "group2": [
-            {
-              "firstLevel": "Product Cash Flows",
-              "secondLevel": [
-                {
-                  "assetName": "Total Coupon Payment Amount",
-                  "amount": 15909
-                },
-                {
-                  "assetName": "Total Upfront fee",
-                  "amount": 150384
-                }
-              ]
-            },
-            {
-              "firstLevel": "Fees & Commissions",
-              "secondLevel": [
-                {
-                  "assetName": "Clearing Broker Fee (USD)",
-                  "amount": 150386
-                },
-                {
-                  "assetName": "Clearing Broker Fee (EUR)",
-                  "amount": 150387
-                },
-                {
-                  "assetName": "Clearing Broker Fee (JPY)",
-                  "amount": 150388
-                }
-              ]
-            }
           ]
-        }
-      ],
-      "counterpartyAssets":[
-        {
-          "group1": [
-            {
-              "firstLevel": "Net Total IM",
-              "secondLevel": [
-                {
-                  "assetName": "IM Requirement [Exchange]",
-                  "amount": 150384
-                },
-                {
-                  "assetName": "Additional IM Requirement [FCM]",
-                  "amount": 150385
-                },
-                {
-                  "assetName": "IM Balance Non-cash",
-                  "amount": 150386
-                }
-              ]
-            },
-            {
-              "firstLevel": "Net VM Call (SGD)",
-              "secondLevel": [
-                {
-                  "assetName": "Variation Margin (USD)",
-                  "amount": 150386
-                },
-                {
-                  "assetName": "Current MTM Exposure (USD)",
-                  "amount": 150387
-                },
-                {
-                  "assetName": "Variation Margin Balance (USD)",
-                  "amount": 150388
-                }
-              ]
-            }
-          ],
-          "group2": [
-            {
-              "firstLevel": "Product Cash Flows",
-              "secondLevel": [
-                {
-                  "assetName": "Total Coupon Payment Amount",
-                  "amount": 15909
-                },
-                {
-                  "assetName": "Total Upfront fee",
-                  "amount": 150384
-                }
-              ]
-            },
-            {
-              "firstLevel": "Fees & Commissions",
-              "secondLevel": [
-                {
-                  "assetName": "Clearing Broker Fee (USD)",
-                  "amount": 150386
-                },
-                {
-                  "assetName": "Clearing Broker Fee (EUR)",
-                  "amount": 150387
-                },
-                {
-                  "assetName": "Clearing Broker Fee (JPY)",
-                  "amount": 150388
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "currencyInfo": [
-        {
-          "ccy": "USD",
-          "excahngeRate": 1
         },
         {
-          "ccy": "RMB",
-          "excahngeRate": 0.4123
+          "group2":[
+            {
+              "firstLevel": "Product Cash Flows",
+              "secondLevel": [
+                {
+                  "assetName": "Total Coupon Payment Amount",
+                  "amount": 15909
+                },
+                {
+                  "assetName": "Total Upfront fee",
+                  "amount": 150384
+                }
+              ]
+            },
+            {
+              "firstLevel": "Fees & Commissions",
+              "secondLevel": [
+                {
+                  "assetName": "Clearing Broker Fee (USD)",
+                  "amount": 150386
+                },
+                {
+                  "assetName": "Clearing Broker Fee (EUR)",
+                  "amount": 150387
+                },
+                {
+                  "assetName": "Clearing Broker Fee (JPY)",
+                  "amount": 150388
+                }
+              ]
+            }
+          ]
         }
-      ]
-    }
-  ]
+      ],
+    "counterpartyAssets":[[
+        {
+          "group1":[
+            {
+              "firstLevel": "Net Total IM",
+              "secondLevel": [
+                {
+                  "assetName": "IM Requirement [Exchange]",
+                  "amount": 150384
+                },
+                {
+                  "assetName": "IM Requirement [Exchange]",
+                  "amount": 150384
+                }
+              ]
+            },
+            {
+              "firstLevel": "Net VM Call (SGD)",
+              "secondLevel": [
+                {
+                  "assetName": "Variation Margin (USD)",
+                  "amount": 150386
+                },
+                {
+                  "assetName": "Current MTM Exposure (USD)",
+                  "amount": 150387
+                },
+                {
+                  "assetName": "Variation Margin Balance (USD)",
+                  "amount": 150388
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "group2":[
+            {
+              "firstLevel": "Product Cash Flows",
+              "secondLevel": [
+                {
+                  "assetName": "Total Coupon Payment Amount",
+                  "amount": 15909
+                },
+                {
+                  "assetName": "Total Upfront fee",
+                  "amount": 150384
+                }
+              ]
+            },
+            {
+              "firstLevel": "Fees & Commissions",
+              "secondLevel": [
+                {
+                  "assetName": "Clearing Broker Fee (USD)",
+                  "amount": 150386
+                },
+                {
+                  "assetName": "Clearing Broker Fee (EUR)",
+                  "amount": 150387
+                },
+                {
+                  "assetName": "Clearing Broker Fee (JPY)",
+                  "amount": 150388
+                }
+              ]
+            }
+          ]
+        }
+      ],
+    "currencyInfo": [
+      {
+        "ccy": "USD",
+        "excahngeRate": 1
+      },
+      {
+        "ccy": "RMB",
+        "excahngeRate": 0.4123
+      }
+    ]
+  }
+]
 }
 
 app.get('/', function (req, res) {
