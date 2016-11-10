@@ -2446,11 +2446,15 @@ let dashboard = {
     "currencyInfo": [
       {
         "ccy": "USD",
-        "excahngeRate": 1
+        "exchangeRate": 1
       },
       {
         "ccy": "RMB",
-        "excahngeRate": 0.4123
+        "exchangeRate": 0.4123
+      },
+      {
+        "ccy": "AUD",
+        "exchangeRate": 0.8232
       }
     ]
   }
