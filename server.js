@@ -2367,7 +2367,7 @@ let dashboard = {
           ]
         }
       ],
-    "counterpartyAssets":[[
+    "counterpartyAssets":[
         {
           "group1":[
             {
