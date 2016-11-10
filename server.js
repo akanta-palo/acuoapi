@@ -55,6 +55,7 @@ let dashboard = {
                 "cptyOrg": "COUNTERPARTY A",
                 "ccy": "SGD",
                 "direction": "IN",
+                "GUID":1232412423121,
                 "initialMargin": 10000,
                 "variableMargin": 500000
               },
@@ -2295,6 +2296,7 @@ let dashboard = {
     "cptyOrg": "COUNTERPARTY A",
     "ccy": "SGD",
     "direction": "IN",
+    "GUID":1232412423121,
     "initialMargin": 10000,
     "variableMargin": 500000,
     "ClientAssets":[
