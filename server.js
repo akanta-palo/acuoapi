@@ -2313,7 +2313,11 @@ let dashboard = {
                   "amount": 150384
                 },
                 {
-                  "assetName": "IM Requirement [Exchange]",
+                  "assetName": "Additional IM Requirement [FCM]",
+                  "amount": 150384
+                },
+                {
+                  "assetName": "IM Balance Non-cash",
                   "amount": 150384
                 }
               ]
@@ -2433,7 +2437,11 @@ let dashboard = {
                   "amount": 150384
                 },
                 {
-                  "assetName": "IM Requirement [Exchange]",
+                  "assetName": "Additional IM Requirement [FCM]",
+                  "amount": 150384
+                },
+                {
+                  "assetName": "IM Balance Non-cash",
                   "amount": 150384
                 }
               ]
@@ -2575,11 +2583,15 @@ let dashboard = {
               "secondLevel": [
                 {
                   "assetName": "IM Requirement [Exchange]",
-                  "amount": 1503856
+                  "amount": 150384
                 },
                 {
-                  "assetName": "IM Requirement [Exchange]",
-                  "amount": 150386
+                  "assetName": "Additional IM Requirement [FCM]",
+                  "amount": 150384
+                },
+                {
+                  "assetName": "IM Balance Non-cash",
+                  "amount": 150384
                 }
               ]
             },
@@ -2695,11 +2707,15 @@ let dashboard = {
               "secondLevel": [
                 {
                   "assetName": "IM Requirement [Exchange]",
-                  "amount": 150388
+                  "amount": 150384
                 },
                 {
-                  "assetName": "IM Requirement [Exchange]",
-                  "amount": 150388
+                  "assetName": "Additional IM Requirement [FCM]",
+                  "amount": 150384
+                },
+                {
+                  "assetName": "IM Balance Non-cash",
+                  "amount": 150384
                 }
               ]
             },
@@ -2840,11 +2856,15 @@ let dashboard = {
               "secondLevel": [
                 {
                   "assetName": "IM Requirement [Exchange]",
-                  "amount": 1503856
+                  "amount": 150384
                 },
                 {
-                  "assetName": "IM Requirement [Exchange]",
-                  "amount": 150386
+                  "assetName": "Additional IM Requirement [FCM]",
+                  "amount": 150384
+                },
+                {
+                  "assetName": "IM Balance Non-cash",
+                  "amount": 150384
                 }
               ]
             },
@@ -2960,11 +2980,15 @@ let dashboard = {
               "secondLevel": [
                 {
                   "assetName": "IM Requirement [Exchange]",
-                  "amount": 150388
+                  "amount": 150384
                 },
                 {
-                  "assetName": "IM Requirement [Exchange]",
-                  "amount": 150388
+                  "assetName": "Additional IM Requirement [FCM]",
+                  "amount": 150384
+                },
+                {
+                  "assetName": "IM Balance Non-cash",
+                  "amount": 150384
                 }
               ]
             },
