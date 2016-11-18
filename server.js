@@ -289,6 +289,7 @@ let dashboard = {
                 "cptyOrg": "COUNTERPARTY A",
                 "ccy": "SGD",
                 "direction": "IN",
+                "GUID":1232412423124,
                 "initialMargin": 10000,
                 "variableMargin": 500000
               },
@@ -299,6 +300,7 @@ let dashboard = {
                 "cptyOrg": "COUNTERPARTY B",
                 "ccy": "SGD",
                 "direction": "IN",
+                "GUID":1232412423125,
                 "initialMargin": 10000,
                 "variableMargin": 500000
               },
@@ -474,6 +476,7 @@ let dashboard = {
                 "cptyOrg": "COUNTERPARTY A",
                 "ccy": "SGD",
                 "direction": "IN",
+                "GUID":1232412423126,
                 "initialMargin": 100000000000,
                 "variableMargin": 500000
               },
@@ -3089,6 +3092,825 @@ let dashboard = {
                 {
                   "assetName": "Cash (JPY)",
                   "amount": 150388
+                }
+              ]
+            }
+          ]
+        }
+      ],
+    "currencyInfo": [
+      {
+        "ccy": "USD",
+        "exchangeRate": 1
+      },
+      {
+        "ccy": "RMB",
+        "exchangeRate": 0.4125
+      },
+      {
+        "ccy": "AUD",
+        "exchangeRate": 0.8233
+      }
+    ]
+  },
+  {
+    "time": "2016-10-23T10:30:43.511Z",
+    "legalEntity": "Acuo SG",
+    "cptyEntity": "A1",
+    "cptyOrg": "COUNTERPARTY A",
+    "ccy": "SGD",
+    "direction": "OUT",
+    "GUID":1232412423124,
+    "initialMargin": 10000,
+    "variableMargin": 500000,
+    "ClientAssets":[
+        {
+          "groupName": "group 1",
+          "data":[
+            {
+              "firstLevel": "Net Total IM",
+              "secondLevel": [
+                {
+                  "assetName": "IM Requirement [Exchange]",
+                  "amount": 150384
+                },
+                {
+                  "assetName": "Additional IM Requirement [FCM]",
+                  "amount": 150384
+                },
+                {
+                  "assetName": "IM Balance Non-cash",
+                  "amount": 150384
+                }
+              ]
+            },
+            {
+              "firstLevel": "Net VM Call (SGD)",
+              "secondLevel": [
+                {
+                  "assetName": "Variation Margin (USD)",
+                  "amount": 150388
+                },
+                {
+                  "assetName": "Current MTM Exposure (USD)",
+                  "amount": 150387
+                },
+                {
+                  "assetName": "Variation Margin Balance (USD)",
+                  "amount": 150388
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupName": "group 2",
+          "data":[
+            {
+              "firstLevel": "Product Cash Flows",
+              "secondLevel": [
+                {
+                  "assetName": "Total Coupon Payment Amount",
+                  "amount": 15910
+                },
+                {
+                  "assetName": "Total Upfront fee",
+                  "amount": 150310
+                }
+              ]
+            },
+            {
+              "firstLevel": "Daily PAI",
+              "secondLevel": [
+                {
+                  "assetName": "Daily PAI (USD)",
+                  "amount": 15909
+                },
+                {
+                  "assetName": "Daily PAI (EUR)",
+                  "amount": 150384
+                }
+              ]
+            },
+            {
+              "firstLevel": "Fees & Commissions",
+              "secondLevel": [
+                {
+                  "assetName": "Clearing Broker Fee (USD)",
+                  "amount": 150380
+                },
+                {
+                  "assetName": "Clearing Broker Fee (EUR)",
+                  "amount": 150380
+                },
+                {
+                  "assetName": "Clearing Broker Fee (JPY)",
+                  "amount": 150388
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupName": "group 3",
+          "data":[
+            {
+              "firstLevel": "Pending Non-Cash(Net)",
+              "secondLevel": [
+                {
+                  "assetName": "Securities (USD)",
+                  "amount": 15909
+                },
+                {
+                  "assetName": "Securities (EUR)",
+                  "amount": 150384
+                }
+              ]
+            },
+            {
+              "firstLevel": "Pending Cash (Net)",
+              "secondLevel": [
+                {
+                  "assetName": "Cash (USD)",
+                  "amount": 150386
+                },
+                {
+                  "assetName": "Cash (EUR)",
+                  "amount": 150387
+                },
+                {
+                  "assetName": "Cash (JPY)",
+                  "amount": 150388
+                }
+              ]
+            }
+          ]
+        }
+      ],
+    "counterpartyAssets":[
+        {
+          "groupName": "group 1",
+          "data":[
+            {
+              "firstLevel": "Net Total IM",
+              "secondLevel": [
+                {
+                  "assetName": "IM Requirement [Exchange]",
+                  "amount": 15210
+                },
+                {
+                  "assetName": "Additional IM Requirement [FCM]",
+                  "amount": 150450
+                },
+                {
+                  "assetName": "IM Balance Non-cash",
+                  "amount": 150406
+                }
+              ]
+            },
+            {
+              "firstLevel": "Net VM Call (SGD)",
+              "secondLevel": [
+                {
+                  "assetName": "Variation Margin (USD)",
+                  "amount": 150389
+                },
+                {
+                  "assetName": "Current MTM Exposure (USD)",
+                  "amount": 150387
+                },
+                {
+                  "assetName": "Variation Margin Balance (USD)",
+                  "amount": 150388
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupName": "group 2",
+          "data":[
+            {
+              "firstLevel": "Product Cash Flows",
+              "secondLevel": [
+                {
+                  "assetName": "Total Coupon Payment Amount",
+                  "amount": 15910
+                },
+                {
+                  "assetName": "Total Upfront fee",
+                  "amount": 150310
+                }
+              ]
+            },
+            {
+              "firstLevel": "Daily PAI",
+              "secondLevel": [
+                {
+                  "assetName": "Daily PAI (USD)",
+                  "amount": 15909
+                },
+                {
+                  "assetName": "Daily PAI (EUR)",
+                  "amount": 150384
+                }
+              ]
+            },
+            {
+              "firstLevel": "Fees & Commissions",
+              "secondLevel": [
+                {
+                  "assetName": "Clearing Broker Fee (USD)",
+                  "amount": 150380
+                },
+                {
+                  "assetName": "Clearing Broker Fee (EUR)",
+                  "amount": 150380
+                },
+                {
+                  "assetName": "Clearing Broker Fee (JPY)",
+                  "amount": 150388
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupName": "group 3",
+          "data":[
+            {
+              "firstLevel": "Pending Non-Cash(Net)",
+              "secondLevel": [
+                {
+                  "assetName": "Securities (USD)",
+                  "amount": 15909
+                },
+                {
+                  "assetName": "Securities (EUR)",
+                  "amount": 150387
+                }
+              ]
+            },
+            {
+              "firstLevel": "Pending Cash (Net)",
+              "secondLevel": [
+                {
+                  "assetName": "Cash (USD)",
+                  "amount": 150386
+                },
+                {
+                  "assetName": "Cash (EUR)",
+                  "amount": 1503899
+                },
+                {
+                  "assetName": "Cash (JPY)",
+                  "amount": 150380
+                }
+              ]
+            }
+          ]
+        }
+      ],
+    "currencyInfo": [
+      {
+        "ccy": "USD",
+        "exchangeRate": 1
+      },
+      {
+        "ccy": "RMB",
+        "exchangeRate": 0.4125
+      },
+      {
+        "ccy": "AUD",
+        "exchangeRate": 0.8233
+      }
+    ]
+  },
+  {
+    "time": "2016-10-23T10:30:43.511Z",
+    "legalEntity": "Acuo SG",
+    "cptyEntity": "A1",
+    "cptyOrg": "COUNTERPARTY A",
+    "ccy": "SGD",
+    "direction": "OUT",
+    "GUID":1232412423125,
+    "initialMargin": 10000,
+    "variableMargin": 500000,
+    "ClientAssets":[
+        {
+          "groupName": "group 1",
+          "data":[
+            {
+              "firstLevel": "Net Total IM",
+              "secondLevel": [
+                {
+                  "assetName": "IM Requirement [Exchange]",
+                  "amount": 150384
+                },
+                {
+                  "assetName": "Additional IM Requirement [FCM]",
+                  "amount": 150380
+                },
+                {
+                  "assetName": "IM Balance Non-cash",
+                  "amount": 150381
+                }
+              ]
+            },
+            {
+              "firstLevel": "Net VM Call (SGD)",
+              "secondLevel": [
+                {
+                  "assetName": "Variation Margin (USD)",
+                  "amount": 150387
+                },
+                {
+                  "assetName": "Current MTM Exposure (USD)",
+                  "amount": 150387
+                },
+                {
+                  "assetName": "Variation Margin Balance (USD)",
+                  "amount": 150388
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupName": "group 2",
+          "data":[
+            {
+              "firstLevel": "Product Cash Flows",
+              "secondLevel": [
+                {
+                  "assetName": "Total Coupon Payment Amount",
+                  "amount": 15910
+                },
+                {
+                  "assetName": "Total Upfront fee",
+                  "amount": 150310
+                }
+              ]
+            },
+            {
+              "firstLevel": "Daily PAI",
+              "secondLevel": [
+                {
+                  "assetName": "Daily PAI (USD)",
+                  "amount": 15909
+                },
+                {
+                  "assetName": "Daily PAI (EUR)",
+                  "amount": 150384
+                }
+              ]
+            },
+            {
+              "firstLevel": "Fees & Commissions",
+              "secondLevel": [
+                {
+                  "assetName": "Clearing Broker Fee (USD)",
+                  "amount": 150380
+                },
+                {
+                  "assetName": "Clearing Broker Fee (EUR)",
+                  "amount": 150380
+                },
+                {
+                  "assetName": "Clearing Broker Fee (JPY)",
+                  "amount": 150388
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupName": "group 3",
+          "data":[
+            {
+              "firstLevel": "Pending Non-Cash(Net)",
+              "secondLevel": [
+                {
+                  "assetName": "Securities (USD)",
+                  "amount": 15909
+                },
+                {
+                  "assetName": "Securities (EUR)",
+                  "amount": 150384
+                }
+              ]
+            },
+            {
+              "firstLevel": "Pending Cash (Net)",
+              "secondLevel": [
+                {
+                  "assetName": "Cash (USD)",
+                  "amount": 150386
+                },
+                {
+                  "assetName": "Cash (EUR)",
+                  "amount": 150387
+                },
+                {
+                  "assetName": "Cash (JPY)",
+                  "amount": 150388
+                }
+              ]
+            }
+          ]
+        }
+      ],
+    "counterpartyAssets":[
+        {
+          "groupName": "group 1",
+          "data":[
+            {
+              "firstLevel": "Net Total IM",
+              "secondLevel": [
+                {
+                  "assetName": "IM Requirement [Exchange]",
+                  "amount": 15210
+                },
+                {
+                  "assetName": "Additional IM Requirement [FCM]",
+                  "amount": 150450
+                },
+                {
+                  "assetName": "IM Balance Non-cash",
+                  "amount": 150406
+                }
+              ]
+            },
+            {
+              "firstLevel": "Net VM Call (SGD)",
+              "secondLevel": [
+                {
+                  "assetName": "Variation Margin (USD)",
+                  "amount": 150389
+                },
+                {
+                  "assetName": "Current MTM Exposure (USD)",
+                  "amount": 150387
+                },
+                {
+                  "assetName": "Variation Margin Balance (USD)",
+                  "amount": 150388
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupName": "group 2",
+          "data":[
+            {
+              "firstLevel": "Product Cash Flows",
+              "secondLevel": [
+                {
+                  "assetName": "Total Coupon Payment Amount",
+                  "amount": 15910
+                },
+                {
+                  "assetName": "Total Upfront fee",
+                  "amount": 150310
+                }
+              ]
+            },
+            {
+              "firstLevel": "Daily PAI",
+              "secondLevel": [
+                {
+                  "assetName": "Daily PAI (USD)",
+                  "amount": 15909
+                },
+                {
+                  "assetName": "Daily PAI (EUR)",
+                  "amount": 150384
+                }
+              ]
+            },
+            {
+              "firstLevel": "Fees & Commissions",
+              "secondLevel": [
+                {
+                  "assetName": "Clearing Broker Fee (USD)",
+                  "amount": 150380
+                },
+                {
+                  "assetName": "Clearing Broker Fee (EUR)",
+                  "amount": 150380
+                },
+                {
+                  "assetName": "Clearing Broker Fee (JPY)",
+                  "amount": 150388
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupName": "group 3",
+          "data":[
+            {
+              "firstLevel": "Pending Non-Cash(Net)",
+              "secondLevel": [
+                {
+                  "assetName": "Securities (USD)",
+                  "amount": 15909
+                },
+                {
+                  "assetName": "Securities (EUR)",
+                  "amount": 150384
+                }
+              ]
+            },
+            {
+              "firstLevel": "Pending Cash (Net)",
+              "secondLevel": [
+                {
+                  "assetName": "Cash (USD)",
+                  "amount": 150386
+                },
+                {
+                  "assetName": "Cash (EUR)",
+                  "amount": 150387
+                },
+                {
+                  "assetName": "Cash (JPY)",
+                  "amount": 150388
+                }
+              ]
+            }
+          ]
+        }
+      ],
+    "currencyInfo": [
+      {
+        "ccy": "USD",
+        "exchangeRate": 1
+      },
+      {
+        "ccy": "RMB",
+        "exchangeRate": 0.4125
+      },
+      {
+        "ccy": "AUD",
+        "exchangeRate": 0.8233
+      }
+    ]
+  },
+  {
+    "time": "2016-10-23T10:30:43.511Z",
+    "legalEntity": "Acuo SG",
+    "cptyEntity": "A1",
+    "cptyOrg": "COUNTERPARTY A",
+    "ccy": "SGD",
+    "direction": "OUT",
+    "GUID":1232412423126,
+    "initialMargin": 10000,
+    "variableMargin": 500000,
+    "ClientAssets":[
+        {
+          "groupName": "group 1",
+          "data":[
+            {
+              "firstLevel": "Net Total IM",
+              "secondLevel": [
+                {
+                  "assetName": "IM Requirement [Exchange]",
+                  "amount": 1000000
+                },
+                {
+                  "assetName": "Additional IM Requirement [FCM]",
+                  "amount": 2000000
+                },
+                {
+                  "assetName": "IM Balance Non-cash",
+                  "amount": 3000000
+                }
+              ]
+            },
+            {
+              "firstLevel": "Net VM Call (SGD)",
+              "secondLevel": [
+                {
+                  "assetName": "Variation Margin (USD)",
+                  "amount": 1000000
+                },
+                {
+                  "assetName": "Current MTM Exposure (USD)",
+                  "amount": 1000000
+                },
+                {
+                  "assetName": "Variation Margin Balance (USD)",
+                  "amount": 1000000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupName": "group 2",
+          "data":[
+            {
+              "firstLevel": "Product Cash Flows",
+              "secondLevel": [
+                {
+                  "assetName": "Total Coupon Payment Amount",
+                  "amount": 1000000
+                },
+                {
+                  "assetName": "Total Upfront fee",
+                  "amount": 1000000
+                }
+              ]
+            },
+            {
+              "firstLevel": "Daily PAI",
+              "secondLevel": [
+                {
+                  "assetName": "Daily PAI (USD)",
+                  "amount": 1000000
+                },
+                {
+                  "assetName": "Daily PAI (EUR)",
+                  "amount": 1000000
+                }
+              ]
+            },
+            {
+              "firstLevel": "Fees & Commissions",
+              "secondLevel": [
+                {
+                  "assetName": "Clearing Broker Fee (USD)",
+                  "amount": 1000000
+                },
+                {
+                  "assetName": "Clearing Broker Fee (EUR)",
+                  "amount": 1000000
+                },
+                {
+                  "assetName": "Clearing Broker Fee (JPY)",
+                  "amount": 1000000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupName": "group 3",
+          "data":[
+            {
+              "firstLevel": "Pending Non-Cash(Net)",
+              "secondLevel": [
+                {
+                  "assetName": "Securities (USD)",
+                  "amount": 1000000
+                },
+                {
+                  "assetName": "Securities (EUR)",
+                  "amount": 2000000
+                }
+              ]
+            },
+            {
+              "firstLevel": "Pending Cash (Net)",
+              "secondLevel": [
+                {
+                  "assetName": "Cash (USD)",
+                  "amount": 1000000
+                },
+                {
+                  "assetName": "Cash (EUR)",
+                  "amount": 2000000
+                },
+                {
+                  "assetName": "Cash (JPY)",
+                  "amount": 1500000
+                }
+              ]
+            }
+          ]
+        }
+      ],
+    "counterpartyAssets":[
+        {
+          "groupName": "group 1",
+          "data":[
+            {
+              "firstLevel": "Net Total IM",
+              "secondLevel": [
+                {
+                  "assetName": "IM Requirement [Exchange]",
+                  "amount": 1100000
+                },
+                {
+                  "assetName": "Additional IM Requirement [FCM]",
+                  "amount": 1100000
+                },
+                {
+                  "assetName": "IM Balance Non-cash",
+                  "amount": 2100000
+                }
+              ]
+            },
+            {
+              "firstLevel": "Net VM Call (SGD)",
+              "secondLevel": [
+                {
+                  "assetName": "Variation Margin (USD)",
+                  "amount": 1200000
+                },
+                {
+                  "assetName": "Current MTM Exposure (USD)",
+                  "amount": 1100000
+                },
+                {
+                  "assetName": "Variation Margin Balance (USD)",
+                  "amount": 1000000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupName": "group 2",
+          "data":[
+            {
+              "firstLevel": "Product Cash Flows",
+              "secondLevel": [
+                {
+                  "assetName": "Total Coupon Payment Amount",
+                  "amount": 120000
+                },
+                {
+                  "assetName": "Total Upfront fee",
+                  "amount": 150000
+                }
+              ]
+            },
+            {
+              "firstLevel": "Daily PAI",
+              "secondLevel": [
+                {
+                  "assetName": "Daily PAI (USD)",
+                  "amount": 1000000
+                },
+                {
+                  "assetName": "Daily PAI (EUR)",
+                  "amount": 1500000
+                }
+              ]
+            },
+            {
+              "firstLevel": "Fees & Commissions",
+              "secondLevel": [
+                {
+                  "assetName": "Clearing Broker Fee (USD)",
+                  "amount": 1500000
+                },
+                {
+                  "assetName": "Clearing Broker Fee (EUR)",
+                  "amount": 1500000
+                },
+                {
+                  "assetName": "Clearing Broker Fee (JPY)",
+                  "amount": 1500000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupName": "group 3",
+          "data":[
+            {
+              "firstLevel": "Pending Non-Cash(Net)",
+              "secondLevel": [
+                {
+                  "assetName": "Securities (USD)",
+                  "amount": 1500000
+                },
+                {
+                  "assetName": "Securities (EUR)",
+                  "amount": 1500000
+                }
+              ]
+            },
+            {
+              "firstLevel": "Pending Cash (Net)",
+              "secondLevel": [
+                {
+                  "assetName": "Cash (USD)",
+                  "amount": 1500000
+                },
+                {
+                  "assetName": "Cash (EUR)",
+                  "amount": 1500000
+                },
+                {
+                  "assetName": "Cash (JPY)",
+                  "amount": 1500000
                 }
               ]
             }
